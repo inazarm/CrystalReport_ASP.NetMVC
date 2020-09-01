@@ -18,6 +18,6 @@ namespace CrystalReport_ASP.NetMVC.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
-        public Nullable<decimal> Salary { get; set; }
+        public decimal Salary { get; set; }
     }
 }
